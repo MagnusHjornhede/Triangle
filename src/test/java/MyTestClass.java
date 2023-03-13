@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 @DisplayName("My Test Class")
 public class MyTestClass {
     Triangle triangle;
+    CountWords countWords;
     @BeforeAll
     static void setUpBeforeClass() throws Exception {
         // Code executed before all test methods
